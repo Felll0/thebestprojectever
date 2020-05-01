@@ -1,1 +1,44 @@
+html{
+    height: 100%;
+}
 
+body {
+    background-image: linear-gradient(to right top, #845ec2, #e65faa, #ff8080, #ffbb61, #f9f871);
+}
+
+h1{
+    font-family: "Roboto";
+    color: white;
+    text-shadow: 2px 3px 0px rgba(150, 150, 150, 1);
+}
+
+p{
+    font-family: "Roboto";
+    color: white;
+}
+
+a {
+    font-family: "Roboto";
+    color: white;
+}
+
+a:hover {
+    color: #FEFEDF;
+}
+
+li{
+    font-family: "Roboto";
+    color: white;
+}
+
+h4 {
+    font-family: "Roboto";
+    color: white;
+}
+
+@font-face {
+    font-family: "Roboto"; 
+    src: url("./../fonts/Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
